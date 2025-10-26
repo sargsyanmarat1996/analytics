@@ -84,3 +84,5 @@ ORDER BY average_day_price DESC
 'Port Michelle', '412.8333', '56'
 'Port Erika', '375.2500', '42'
 'Jacksonton', '241.1429', '60'
+
+--Top 3 places by rating--
