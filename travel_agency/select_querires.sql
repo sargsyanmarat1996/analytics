@@ -40,3 +40,16 @@ LIMIT 1
 # category_id, booking_ammount, category_name
 '2', '42', 'Mountain'
 
+--Top 1 country visited during COVID-19--
+SELECT COUNT(bookings.destination_id) AS bookings_ammount, destinations.country 
+FROM bookings
+JOIN destinations ON (bookings.destination_id = destinations.destination_id)
+WHERE bookings.travel_date BETWEEN '2019-01-01' AND '2023-01-01'
+GROUP BY bookings.destination_id
+ORDER BY destination_ammount DESC
+LIMIT 1
+
+# bookings_ammount, country
+'3', 'Egypt'
+
+--Highest price per day spent for booking 
