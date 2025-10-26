@@ -62,7 +62,7 @@ JOIN bookings ON (destinations.destination_id = bookings.destination_id)
 JOIN itineraries ON (bookings.booking_id = itineraries.booking_id)
 GROUP BY destinations.destination_id, bookings.budget, bookings.booking_id) AS rnk
 WHERE rnk = 1
-ORDER BY average_day_price
+ORDER BY average_day_price DESC
 
 # destination_name, average_day_price, booking_id
 'Andersontown', '4476.0000', '90'
