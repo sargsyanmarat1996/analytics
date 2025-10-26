@@ -53,4 +53,35 @@ LIMIT 1
 '3', 'Egypt'
 
 --Highest price spent per day for each destination--
+SELECT destination_name, average_day_price, booking_id
+FROM
+(SELECT destinations.destination_name, bookings.budget/SUM(itineraries.day_number) AS average_day_price, bookings.booking_id,
+ROW_NUMBER() OVER (PARTITION BY destinations.destination_name ORDER BY bookings.budget/SUM(itineraries.day_number)DESC) AS rnk
+FROM destinations
+JOIN bookings ON (destinations.destination_id = bookings.destination_id)
+JOIN itineraries ON (bookings.booking_id = itineraries.booking_id)
+GROUP BY destinations.destination_id, bookings.budget, bookings.booking_id) AS rnk
+WHERE rnk = 1
+ORDER BY average_day_price
+
+# destination_name, average_day_price, booking_id
+'Andersontown', '4476.0000', '90'
+'Kimberlystad', '4027.0000', '93'
+'East Carlshire', '3748.0000', '45'
+'Hollandmouth', '3366.0000', '55'
+'West Brett', '3283.0000', '97'
+'Port Eddie', '2910.0000', '21'
+'West April', '2868.0000', '99'
+'West Rickymouth', '2586.0000', '79'
+'Joshuaburgh', '2306.0000', '4'
+'East Margaret', '2022.0000', '89'
+'Williamsberg', '1849.0000', '96'
+'Lake Lisatown', '913.8000', '20'
+'Bryanhaven', '739.3333', '16'
+'South Nicole', '691.4000', '12'
+'South Dana', '503.3333', '5'
+'Braunborough', '493.6667', '3'
+'Port Michelle', '412.8333', '56'
+'Port Erika', '375.2500', '42'
+'Jacksonton', '241.1429', '60'
 
