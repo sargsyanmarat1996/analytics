@@ -56,12 +56,12 @@ LIMIT 1
 SELECT destination_name, average_day_price, booking_id
 FROM
 (SELECT destinations.destination_name, bookings.budget/SUM(itineraries.day_number) AS average_day_price, bookings.booking_id,
-ROW_NUMBER() OVER (PARTITION BY destinations.destination_name ORDER BY bookings.budget/SUM(itineraries.day_number)DESC) AS rnk
+ROW_NUMBER() OVER (PARTITION BY destinations.destination_name ORDER BY bookings.budget/SUM(itineraries.day_number)DESC) AS budget_rank
 FROM destinations
 JOIN bookings ON (destinations.destination_id = bookings.destination_id)
 JOIN itineraries ON (bookings.booking_id = itineraries.booking_id)
-GROUP BY destinations.destination_id, bookings.budget, bookings.booking_id) AS rnk
-WHERE rnk = 1
+GROUP BY destinations.destination_id, bookings.budget, bookings.booking_id) AS table_a
+WHERE budget_rank = 1
 ORDER BY average_day_price DESC
 
 # destination_name, average_day_price, booking_id
@@ -86,3 +86,8 @@ ORDER BY average_day_price DESC
 'Jacksonton', '241.1429', '60'
 
 --Top 3 places by rating--
+
+
+
+
+--Average window booking
