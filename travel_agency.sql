@@ -3,7 +3,7 @@ CREATE SCHEMA travel
   
 --Create a table in schema--
 CREATE TABLE travel.categories(
-category_id INT,
+category_id TINYINT,
 category_name VARCHAR (10),
 PRIMARY KEY (category_id));
 
@@ -12,7 +12,7 @@ customer_id TINYINT,
 fullname VARCHAR (30),
 email NVARCHAR (255),
 phone VARCHAR (14),
-travel_preference VARCHAR (10),
+travel_preference VARCHAR (20),
 PRIMARY KEY (customer_id));
 
 CREATE TABLE travel.destinations(
@@ -50,7 +50,7 @@ FOREIGN KEY (booking_id) REFERENCES travel.bookings (booking_id));
 
 CREATE TABLE travel.destination_category(
 destination_id TINYINT,
-category_id INT,
+category_id TINYINT,
 FOREIGN KEY (category_id) REFERENCES travel.categories (category_id),
 FOREIGN KEY (destination_id) REFERENCES travel.destinations (destination_id));
 
