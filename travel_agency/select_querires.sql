@@ -52,4 +52,5 @@ LIMIT 1
 # bookings_ammount, country
 '3', 'Egypt'
 
---Highest price per day spent for booking 
+--Highest price spent per day for each destination--
+
