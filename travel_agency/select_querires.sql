@@ -86,8 +86,41 @@ ORDER BY average_day_price DESC
 'Jacksonton', '241.1429', '60'
 
 --Top 3 places by rating--
+SELECT avg_rate, booking_id, destination_name
+FROM
+(SELECT AVG(reviews.rating) AS avg_rate, bookings.booking_id, destinations.destination_name,
+ROW_NUMBER () OVER(PARTITION BY destinations.destination_name ORDER BY AVG(reviews.rating)DESC) AS rate_rank
+FROM reviews
+JOIN bookings ON (reviews.booking_id = bookings.booking_id)
+JOIN destinations ON (bookings.destination_id = destinations.destination_id)
+GROUP BY bookings.booking_id, destinations.destination_name) table_b
+WHERE rate_rank = 1
+ORDER BY avg_rate DESC
 
-
-
+# avg_rate, booking_id, destination_name
+'5.0000', '26', 'Andersontown'
+'5.0000', '3', 'Braunborough'
+'5.0000', '35', 'East Carlshire'
+'5.0000', '95', 'East Margaret'
+'5.0000', '73', 'Hollandmouth'
+'5.0000', '31', 'Joshuaburgh'
+'5.0000', '71', 'Port Eddie'
+'5.0000', '22', 'Port Natashastad'
+'5.0000', '51', 'South Nicole'
+'5.0000', '25', 'West April'
+'5.0000', '8', 'West Brett'
+'5.0000', '67', 'Williamsberg'
+'4.0000', '19', 'Bryanhaven'
+'4.0000', '86', 'Kimberlystad'
+'3.3333', '46', 'Jacksonton'
+'3.0000', '33', 'South Dana'
+'2.7500', '2', 'Port Erika'
+'2.0000', '49', 'Lake Lisatown'
+'1.0000', '56', 'Port Michelle'
 
 --Average window booking
+
+
+
+
+
