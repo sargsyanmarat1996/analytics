@@ -85,30 +85,38 @@ ORDER BY average_day_price DESC
 'Port Erika', '375.2500', '42'
 'Jacksonton', '241.1429', '60'
 
---Top bookings for each destination by rating--
-WITH RECURSIVE
-cte_last AS
-(SELECT last_rank, avg_rate, booking_id, destination_name
+--Worst bookings for each destination by rating--
+SELECT rate, booking_id, destination_name
 FROM 
-(SELECT AVG(reviews.rating) AS avg_rate, bookings.booking_id, destinations.destination_name,
+(SELECT AVG(reviews.rating) AS rate, bookings.booking_id, destinations.destination_name,
 LAST_VALUE(bookings.booking_id) OVER(PARTITION BY destinations.destination_name ORDER BY AVG(reviews.rating) DESC 
 ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS last_rank
 FROM reviews
 JOIN bookings ON (reviews.booking_id = bookings.booking_id)
 JOIN destinations ON (bookings.destination_id = destinations.destination_id)
-GROUP BY bookings.booking_id, destinations.destination_name) AS table_c
-WHERE booking_id = last_rank),
-cte_first AS
-(SELECT first_rank, avg_rate, booking_id, destination_name
-FROM 
-(SELECT AVG(reviews.rating) AS avg_rate, bookings.booking_id, destinations.destination_name,
-FIRST_VALUE (bookings.booking_id) OVER(PARTITION BY destinations.destination_name ORDER BY AVG(reviews.rating)DESC) AS first_rank
-FROM reviews
-JOIN bookings ON (reviews.booking_id = bookings.booking_id)
-JOIN destinations ON (bookings.destination_id = destinations.destination_id)
-GROUP BY bookings.booking_id, destinations.destination_name) as table_b
-WHERE booking_id = first_rank)
-SELECT DISTINCT * FROM cte_last, cte_first
+GROUP BY bookings.booking_id, destinations.destination_name, bookings.budget) AS table_c
+WHERE booking_id = last_rank
+
+# rate, booking_id, destination_name
+'2.0000', '90', 'Andersontown'
+'5.0000', '3', 'Braunborough'
+'4.0000', '19', 'Bryanhaven'
+'1.0000', '57', 'East Carlshire'
+'5.0000', '95', 'East Margaret'
+'1.0000', '17', 'Hollandmouth'
+'2.0000', '91', 'Jacksonton'
+'1.0000', '40', 'Joshuaburgh'
+'2.0000', '50', 'Kimberlystad'
+'2.0000', '49', 'Lake Lisatown'
+'3.5000', '87', 'Port Eddie'
+'1.0000', '59', 'Port Erika'
+'1.0000', '56', 'Port Michelle'
+'5.0000', '22', 'Port Natashastad'
+'3.0000', '33', 'South Dana'
+'2.0000', '44', 'South Nicole'
+'4.0000', '92', 'West April'
+'1.0000', '30', 'West Brett'
+'2.0000', '10', 'Williamsberg'
 
 --Average window booking
 
