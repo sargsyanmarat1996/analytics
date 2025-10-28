@@ -60,7 +60,7 @@ ROW_NUMBER() OVER (PARTITION BY destinations.destination_name ORDER BY bookings.
 FROM destinations
 JOIN bookings ON (destinations.destination_id = bookings.destination_id)
 JOIN itineraries ON (bookings.booking_id = itineraries.booking_id)
-GROUP BY destinations.destination_id, bookings.budget, bookings.booking_id) AS table_a
+GROUP BY destinations.destination_id, bookings.budget, bookings.booking_id) AS table_price
 WHERE budget_rank = 1
 ORDER BY average_day_price DESC
 
@@ -94,7 +94,7 @@ ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS last_rank
 FROM reviews
 JOIN bookings ON (reviews.booking_id = bookings.booking_id)
 JOIN destinations ON (bookings.destination_id = destinations.destination_id)
-GROUP BY bookings.booking_id, destinations.destination_name, bookings.budget) AS table_c
+GROUP BY bookings.booking_id, destinations.destination_name, bookings.budget) AS table_rate
 WHERE booking_id = last_rank
 
 # rate, booking_id, destination_name
