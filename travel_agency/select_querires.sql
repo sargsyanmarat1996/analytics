@@ -118,7 +118,7 @@ WHERE booking_id = last_rank
 '1.0000', '30', 'West Brett'
 '2.0000', '10', 'Williamsberg'
 
---Average window booking
+--Shift of booking window for holidays in past 3 years--
 
 
 
