@@ -118,9 +118,26 @@ WHERE booking_id = last_rank
 '1.0000', '30', 'West Brett'
 '2.0000', '10', 'Williamsberg'
 
---Shift of booking window for new year in past two decades --
+--Shift of booking window for new year in the past two decades --
 
 
+WITH RECURSIVE
 
+year_10 AS
+(SELECT bookings.booking_id, YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_10
+FROM bookings
+WHERE LEFT(bookings.booking_date,3) = 201
+GROUP BY bookings.booking_id, bookings.booking_date, bookings.travel_date),
+
+year_00 AS
+(SELECT bookings.booking_id, YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_00
+FROM bookings
+WHERE LEFT(bookings.booking_date,3) = 200
+GROUP BY bookings.booking_id, bookings.booking_date, bookings.travel_date)
+
+SELECT year_10.booking_id AS booking_id, year_10.yr, AVG(year_10.window_10) AS booking_window FROM year_10
+UNION
+SELECT year_00.booking_id AS booking_id, year_00.yr, AVG(year_00.window_00) AS booking_window FROM year_00
+GROUP BY year_10.booking_id
 
 
