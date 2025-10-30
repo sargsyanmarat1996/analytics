@@ -119,25 +119,46 @@ WHERE booking_id = last_rank
 '2.0000', '10', 'Williamsberg'
 
 --Shift of booking window for new year in the past two decades --
-
-
 WITH RECURSIVE
 
 year_10 AS
-(SELECT bookings.booking_id, YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_10
+(SELECT YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_10
 FROM bookings
 WHERE LEFT(bookings.booking_date,3) = 201
-GROUP BY bookings.booking_id, bookings.booking_date, bookings.travel_date),
+GROUP BY bookings.booking_date, bookings.travel_date),
 
 year_00 AS
-(SELECT bookings.booking_id, YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_00
+(SELECT YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_00
 FROM bookings
 WHERE LEFT(bookings.booking_date,3) = 200
-GROUP BY bookings.booking_id, bookings.booking_date, bookings.travel_date)
+GROUP BY bookings.booking_date, bookings.travel_date),
 
-SELECT year_10.booking_id AS booking_id, year_10.yr, AVG(year_10.window_10) AS booking_window FROM year_10
+year_sum AS
+(SELECT year_10.yr, year_10.window_10 FROM year_10
 UNION
-SELECT year_00.booking_id AS booking_id, year_00.yr, AVG(year_00.window_00) AS booking_window FROM year_00
-GROUP BY year_10.booking_id
+SELECT year_00.yr, year_00.window_00 FROM year_00)
 
+SELECT year_sum.yr, ROUND(AVG(year_sum.window_10),0) AS avg_booking_window
+FROM year_sum
+GROUP BY year_sum.yr
+ORDER BY year_sum.yr
 
+# yr, avg_booking_window
+'2001', '6012'
+'2002', '3207'
+'2003', '4018'
+'2004', '3643'
+'2005', '4772'
+'2006', '3433'
+'2007', '3044'
+'2008', '623'
+'2009', '5622'
+'2010', '184'
+'2011', '2854'
+'2012', '2004'
+'2013', '2915'
+'2014', '1181'
+'2015', '547'
+'2016', '761'
+'2018', '2791'
+'2019', '4535'
