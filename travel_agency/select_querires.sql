@@ -118,7 +118,7 @@ WHERE booking_id = last_rank
 '1.0000', '30', 'West Brett'
 '2.0000', '10', 'Williamsberg'
 
---Shift of booking window for new year in the past two decades --
+--Average booking window shift for the past two decades. By years --
 WITH RECURSIVE
 
 year_10 AS
