@@ -57,22 +57,21 @@ LIMIT 1
 
   
 --Top monthes by number of bookings--
-  SELECT COUNT(table_d.booking_id) AS bpm, ym FROM
+SELECT COUNT(table_d.booking_id) AS bpm, ym FROM
 (SELECT bookings.booking_id, bookings.travel_date, LEFT(bookings.travel_date,7) AS ym
 FROM bookings
 ORDER BY ym) AS table_d
-WHERE ym BETWEEN '2013-01' AND '2030-01'
 GROUP BY ym
 ORDER BY bpm DESC
 LIMIT 6
 
 # bpm, ym
-'4', '2027-07'
 '4', '2013-07'
+'4', '2027-07'
+'3', '2009-07'
+'3', '2001-06'
 '3', '2026-06'
-'2', '2028-09'
-'2', '2029-10'
-'2', '2014-08'  
+'3', '2003-06'
 
   
 --Highest price spent per day for each destination--
@@ -147,13 +146,13 @@ WHERE booking_id = last_rank
 WITH RECURSIVE
 
 year_10 AS
-(SELECT YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_10
+(SELECT YEAR(bookings.booking_date) AS yr, bookings.travel_date, (ABS(DATEDIFF(travel_date, booking_date))) AS window_10
 FROM bookings
 WHERE LEFT(bookings.booking_date,3) = 201
 GROUP BY bookings.booking_date, bookings.travel_date),
 
 year_00 AS
-(SELECT YEAR(bookings.booking_date) AS yr, bookings.travel_date, SUM(ABS(DATEDIFF(travel_date, booking_date))) AS window_00
+(SELECT YEAR(bookings.booking_date) AS yr, bookings.travel_date, (ABS(DATEDIFF(travel_date, booking_date))) AS window_00
 FROM bookings
 WHERE LEFT(bookings.booking_date,3) = 200
 GROUP BY bookings.booking_date, bookings.travel_date),
@@ -187,3 +186,4 @@ ORDER BY year_sum.yr
 '2016', '761'
 '2018', '2791'
 '2019', '4535'
+
