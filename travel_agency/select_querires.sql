@@ -5,7 +5,7 @@ JOIN customers ON (bookings.customer_id=customers.customer_id)
 GROUP BY bookings.customer_id
 ORDER BY bookings_ammount DESC, fullname ASC
 LIMIT 5
-
+  
 # bookings_ammount, fullname
 '5', 'John Hicks'
 '5', 'Ryan Roberts'
@@ -13,6 +13,7 @@ LIMIT 5
 '4', 'Mark Thomas'
 '4', 'Nathan Donovan'
 
+  
 --Top 5 customers by spent budget--
 SELECT SUM(bookings.budget) AS bookings_budget, customers.fullname
 FROM bookings
@@ -28,6 +29,7 @@ LIMIT 5
 '13760', 'Diane Schultz'
 '11278', 'Charles Rodriguez'
 
+  
 --Top 1 travel category--
 SELECT categories.category_id, COUNT(bookings.destination_id) AS booking_ammount, categories.category_name
 FROM bookings
@@ -40,6 +42,7 @@ LIMIT 1
 # category_id, booking_ammount, category_name
 '2', '42', 'Mountain'
 
+  
 --Top 1 country visited during COVID-19--
 SELECT COUNT(bookings.destination_id) AS bookings_ammount, destinations.country 
 FROM bookings
@@ -52,6 +55,26 @@ LIMIT 1
 # bookings_ammount, country
 '3', 'Egypt'
 
+  
+--Top monthes by number of bookings--
+  SELECT COUNT(table_d.booking_id) AS bpm, ym FROM
+(SELECT bookings.booking_id, bookings.travel_date, LEFT(bookings.travel_date,7) AS ym
+FROM bookings
+ORDER BY ym) AS table_d
+WHERE ym BETWEEN '2013-01' AND '2030-01'
+GROUP BY ym
+ORDER BY bpm DESC
+LIMIT 6
+
+# bpm, ym
+'4', '2027-07'
+'4', '2013-07'
+'3', '2026-06'
+'2', '2028-09'
+'2', '2029-10'
+'2', '2014-08'  
+
+  
 --Highest price spent per day for each destination--
 SELECT destination_name, average_day_price, booking_id
 FROM
@@ -85,6 +108,7 @@ ORDER BY average_day_price DESC
 'Port Erika', '375.2500', '42'
 'Jacksonton', '241.1429', '60'
 
+  
 --Worst bookings for each destination by rating--
 SELECT rate, booking_id, destination_name
 FROM 
@@ -118,6 +142,7 @@ WHERE booking_id = last_rank
 '1.0000', '30', 'West Brett'
 '2.0000', '10', 'Williamsberg'
 
+  
 --Average booking window shift for the past two decades. By years --
 WITH RECURSIVE
 
@@ -162,5 +187,3 @@ ORDER BY year_sum.yr
 '2016', '761'
 '2018', '2791'
 '2019', '4535'
-
-Топ 3 пиковых месяца по бронированиям за последние 5 лет
