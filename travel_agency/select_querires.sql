@@ -49,11 +49,11 @@ FROM bookings
 JOIN destinations ON (bookings.destination_id = destinations.destination_id)
 WHERE bookings.travel_date BETWEEN '2019-01-01' AND '2023-01-01'
 GROUP BY bookings.destination_id
-ORDER BY destination_ammount DESC
+ORDER BY bookings_ammount DESC
 LIMIT 1
 
 # bookings_ammount, country
-'3', 'Egypt'
+'2', 'Yemen'
 
   
 --Top monthes by number of bookings--
@@ -66,12 +66,12 @@ ORDER BY bpm DESC
 LIMIT 6
 
 # bpm, ym
-'4', 'July 2013'
-'4', 'July 2027'
-'3', 'July 2009'
-'3', 'June 2001'
-'3', 'June 2026'
-'3', 'June 2003'
+'3', 'November 2012'
+'2', 'January 2012'
+'2', 'February 2012'
+'2', 'March 2003'
+'2', 'February 2029'
+'2', 'August 2001'
 
   
 --Highest price spent per day for each destination--
@@ -168,22 +168,21 @@ GROUP BY year_sum.yr
 ORDER BY year_sum.yr
 
 # yr, avg_booking_window
-'2001', '6012'
-'2002', '3207'
-'2003', '4018'
-'2004', '3643'
-'2005', '4772'
-'2006', '3433'
-'2007', '3044'
-'2008', '623'
-'2009', '5622'
-'2010', '184'
-'2011', '2854'
-'2012', '2004'
-'2013', '2915'
-'2014', '1181'
-'2015', '547'
-'2016', '761'
-'2018', '2791'
-'2019', '4535'
-
+'2001', '56'
+'2002', '79'
+'2003', '19'
+'2004', '58'
+'2005', '49'
+'2006', '40'
+'2007', '38'
+'2008', '17'
+'2009', '45'
+'2010', '58'
+'2011', '55'
+'2012', '46'
+'2013', '60'
+'2014', '53'
+'2015', '49'
+'2016', '57'
+'2018', '52'
+'2019', '59'
