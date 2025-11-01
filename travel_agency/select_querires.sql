@@ -58,7 +58,7 @@ LIMIT 1
   
 --Top monthes by number of bookings--
 SELECT COUNT(table_d.booking_id) AS bpm, ym FROM
-(SELECT bookings.booking_id, bookings.travel_date, LEFT(bookings.travel_date,7) AS ym
+(SELECT bookings.booking_id, bookings.travel_date, DATE_FORMAT(bookings.travel_date,'%M %Y') AS ym
 FROM bookings
 ORDER BY ym) AS table_d
 GROUP BY ym
@@ -66,12 +66,12 @@ ORDER BY bpm DESC
 LIMIT 6
 
 # bpm, ym
-'4', '2013-07'
-'4', '2027-07'
-'3', '2009-07'
-'3', '2001-06'
-'3', '2026-06'
-'3', '2003-06'
+'4', 'July 2013'
+'4', 'July 2027'
+'3', 'July 2009'
+'3', 'June 2001'
+'3', 'June 2026'
+'3', 'June 2003'
 
   
 --Highest price spent per day for each destination--
