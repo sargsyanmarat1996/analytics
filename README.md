@@ -11,5 +11,8 @@ select_querires.sql — SELECT queries
 power_bi/ — 
 travel_agency
 
-		wdwada	wdwa
-			dwad	dwa
+dwadawdwad
+eeada
+daw
+
+	dwadwa
