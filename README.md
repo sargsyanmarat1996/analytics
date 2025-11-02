@@ -10,9 +10,3 @@ schema_editing.sql — UPDATE and ALTER queries
 select_querires.sql — SELECT queries
 power_bi/ — 
 travel_agency
-
-dwadawdwad
-eeada
-daw
-
-	dwadwa
