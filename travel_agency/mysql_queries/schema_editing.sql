@@ -6,6 +6,9 @@ OR DATEDIFF(bookings.booking_date, bookings.travel_date) < - 190
 
 
 --Add sex for clietns--
+
+ALTER TABLE customers ADD sex CHAR(1). 
+  
 UPDATE customers SET sex = 'M';
 
 UPDATE customers SET sex = 'F'
