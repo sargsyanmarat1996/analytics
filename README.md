@@ -4,7 +4,7 @@ Welcome to a portfolio where I showcas my various analytic skills: sql, power bi
 # Repository structure
 travel_agency/ — Main folder of the project
   data/ — Folder with the original data
-    mysql_queries/ — Folder with mysql queries
+      mysql_queries/ — Folder with mysql queries
     create_&_load_queries.sql — CREATE and LOAD queries
 schema_editing.sql — UPDATE and ALTER queries
 select_querires.sql — SELECT queries
