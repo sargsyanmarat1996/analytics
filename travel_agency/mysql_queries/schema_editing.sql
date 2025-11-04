@@ -1,9 +1,13 @@
---Set difference between booking_date and travel_date within the range 1 and 150 days--
+--Set difference between booking_date and travel_date within the range 1 and 100 days--
 UPDATE bookings
 SET bookings.travel_date = DATE_ADD(bookings.booking_date, INTERVAL FLOOR(1 + RAND()*(100-1)) DAY)
-WHERE DATEDIFF(bookings.booking_date, bookings.travel_date) > 190 
-OR DATEDIFF(bookings.booking_date, bookings.travel_date) < - 190
+WHERE DATEDIFF(bookings.booking_date, bookings.travel_date) > 1 
+OR DATEDIFF(bookings.booking_date, bookings.travel_date) < - 1
 
+UPDATE bookings
+SET bookings.booking_date = DATE_ADD(bookings.travel_date, INTERVAL FLOOR(1 + RAND()*(100-1)) DAY)
+WHERE DATEDIFF(bookings.booking_date, bookings.travel_date) > 1
+OR DATEDIFF(bookings.booking_date, bookings.travel_date) < - 1  
 
 --Add sex for clietns--
 
