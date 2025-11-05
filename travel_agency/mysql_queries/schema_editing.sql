@@ -32,31 +32,3 @@ OR customers.fullname = 'Teresa Barnett'
 OR customers.fullname = 'Tracy Sandoval'
 OR customers.fullname = 'Teresa Barnett'
 OR customers.fullname = 'Teresa Barnett'
-
-
---Set difference between dividing budget on day mumber — 100 and 500--
-
-UPDATE bookings
-JOIN itineraries ON(bookings.booking_id = itineraries.booking_id)
-SET bookings.budget = FLOOR(100 + RAND()*(500-1))
-WHERE itineraries.day_number = 1;
-
-UPDATE bookings
-JOIN itineraries ON(bookings.booking_id = itineraries.booking_id)
-SET bookings.budget = FLOOR(200 + RAND()*(1000-1))
-WHERE itineraries.day_number = 2;
-
-UPDATE bookings
-JOIN itineraries ON(bookings.booking_id = itineraries.booking_id)
-SET bookings.budget = FLOOR(300 + RAND()*(1500-1))
-WHERE itineraries.day_number = 3;
-
-UPDATE bookings
-JOIN itineraries ON(bookings.booking_id = itineraries.booking_id)
-SET bookings.budget = FLOOR(400 + RAND()*(2000-1))
-WHERE itineraries.day_number = 4;
-
-UPDATE bookings
-JOIN itineraries ON(bookings.booking_id = itineraries.booking_id)
-SET bookings.budget = FLOOR(500 + RAND()*(2500-1))
-WHERE itineraries.day_number = 5
