@@ -8,9 +8,13 @@ previous year bookings = CALCULATE([bookings], DATEADD('date'[date], -1, YEAR))
 
 age = DATEDIFF('travel customers'[birth date], TODAY(), YEAR)
 
+revenue per day = 
+IF([day sum]<1, 'travel bookings'[budget], 
+[total revenue]/[day sum])
+
 avg revenue per day 0 and 1 = 
-IF([revenue per day]>(AVERAGE('travel bookings'[budget])/AVERAGE('travel itineraries'[day_number])), 0, 
-AVERAGE('travel bookings'[budget])/AVERAGE('travel itineraries'[day_number]))
+IF('travel bookings'[revenue per day]>'travel bookings'[average revenue per day], 0,
+'travel bookings'[average revenue per day])
 
 years needed = 
 IF([revenue per day]>='travel bookings'[avg revenue per day 0 and 1], 0, 
