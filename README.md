@@ -8,7 +8,7 @@ Welcome to the portfolio in which I showcase my various analytic skills: sql, po
     - `create_&_load_queries.sql` — CREATE and LOAD queries
     - `schema_editing.sql` — UPDATE and ALTER queries
     - `select_queries.sql` — SELECT queries
-  - power_bi/ — Folder with power bi project
+  - power_bi/ — Folder with power bi project. Files transportet from mysql server
     - `dax` — Main distinct dax queries
     - `travel_agency.pbix` — Main file of the project
     - `travel_agency.pdf` — Same file in pdf resolution
