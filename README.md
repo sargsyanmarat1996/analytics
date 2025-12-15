@@ -12,3 +12,8 @@ Welcome to the portfolio in which I showcase my various analytic skills: sql, po
     - `dax` — Main distinct dax queries
     - `travel_agency.pbix` — Main file of the project
     - `travel_agency.pdf` — Same file in pdf resolution
+- statistics/ — Main folder for the statistical tests in python
+    - `z-test.ipynb` — Main distinct dax queries
+    - `t-test.ipynb` — Main file of the project
+    - `t-test(two-sided).ipynb` — Same file in pdf resolution
+    - `a-b test.ipynb` — Same file in pdf resolution
