@@ -17,3 +17,4 @@ Welcome to the portfolio in which I showcase my various analytic skills: sql, po
     - `t-test.ipynb` — t-test code
     - `t-test(two-sided).ipynb` — t-test (two-sided) code
     - `a-b test.ipynb` — a/b-test code
+- BPMN/ — Main folder for the BPMN samples
