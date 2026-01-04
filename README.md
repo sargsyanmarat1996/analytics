@@ -13,10 +13,10 @@ Welcome to the portfolio in which I showcase my various analytic skills: sql, po
     - `travel_agency.pbix` — Main file of the project
     - `travel_agency.pdf` — Same file in pdf resolution
 - statistics/ — Main folder for the statistical tests in python
-    - `z-test.ipynb` — z-test code
-    - `t-test.ipynb` — t-test code
-    - `t-test(two-sided).ipynb` — t-test (two-sided) code
-    - `a-b test.ipynb` — a/b-test code
+    - `z-test.ipynb` — z-test code sample
+    - `t-test.ipynb` — t-test code sample
+    - `t-test(two-sided).ipynb` — t-test (two-sided) code sample
+    - `a-b test.ipynb` — a/b-test code sample
 - BPMN/ — Main folder for the BPMN samples
     - `.bpmn` — bpmn diagrams in .bpmn resolution
     - `.svg` — bpmn diagrams in .svg resolution
