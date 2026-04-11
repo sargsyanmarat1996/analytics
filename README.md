@@ -21,4 +21,4 @@ Welcome to the portfolio in which I showcase my various analytic skills: sql, po
     - `.bpmn` — bpmn diagrams in .bpmn resolution
     - `.svg` — bpmn diagrams in .svg resolution
 - test_assignments/ — analytical assignments from potential employers 
-    - `Тестовое на аналитика данных.xlsx` — excel based assignments
+    - `Тестовое на аналитика данных.xlsx` — excel based assignment
