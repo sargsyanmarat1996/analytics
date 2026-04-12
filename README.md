@@ -1,5 +1,5 @@
 # Analytics portfolio
-Welcome to the portfolio in which I showcase my various analytic skills: excel, sql, power bi, overall data analysis 
+Welcome to the portfolio in which I showcase my various analytic skills: excel, sql, python, power bi, overall data analysis 
 
 # Repository structure
 - travel_agency/ — Main folder of the travel agency data analysis project
