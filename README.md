@@ -20,5 +20,5 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
 - BPMN/ — Main folder for the BPMN samples
     - `.bpmn` — bpmn diagrams in .bpmn resolution
     - `.svg` — bpmn diagrams in .svg resolution
-- test_assignments/ — analytical assignments from potential employers 
+- test_assignments/ — Main folder for analytical assignments from potential employers
     - `тестовое на аналитика данных.xlsx` — excel based assignment
