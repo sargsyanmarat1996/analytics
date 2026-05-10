@@ -24,3 +24,4 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
     - `API/JSON` — extract, transform, visualize 
 - test_assignments/ — Main folder for analytical assignments from potential employers
     - `тестовое на аналитика данных.xlsx` — excel based assignment
+    - `Ответ ТЗ Data Analyst.xlsx` and `Ответ ТЗ Data.ipynb` — excel based assignmen with notebook for commentaries
