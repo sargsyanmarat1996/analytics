@@ -25,3 +25,5 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
 - test_assignments/ — Main folder for analytical assignments from potential employers
     - `тестовое на аналитика данных.xlsx` — excel based assignment
     - `Ответ ТЗ Data Analyst.xlsx` and `Ответ ТЗ Data.ipynb` — excel based assignment with notebook for commentaries
+    - `data_sfera_otvet.pbix` and `data_sfera_otvet.ipynb` — power bi based assignment with notebook for commentaries
+    - 
