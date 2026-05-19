@@ -26,4 +26,6 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
     - `тестовое на аналитика данных.xlsx` — excel based assignment
     - `Ответ ТЗ Data Analyst.xlsx` and `Ответ ТЗ Data.ipynb` — excel based assignment with notebook for commentaries
     - `data_sfera_otvet.pbix` and `data_sfera_otvet.ipynb` — power bi based assignment with notebook for commentaries
+    - `data_sfera_otvet2.pdf` and `data_sfera_otvet.ipynb2` — power bi based assignment with notebook for commentaries
+    (Link to pbix file: https://drive.google.com/file/d/1vHy7ImaVDA3pVjwkjTTWeebjpVfZaHNX/view?usp=sharing)
     - 
