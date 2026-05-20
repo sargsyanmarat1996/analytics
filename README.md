@@ -10,7 +10,7 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
 - BPMN/ — Main folder for the BPMN samples
 - python/ — Main folder for the python code samples
 - analysis_assignments/ — Main folder for analytical assignments
-    - apotheka_data_analysis.xlsx — excel based assignment
+    - apotheka_data_analysis — excel based assignment
     - clients_prolongation — excel based assignment with notebook for commentaries
     - data_sfera — power bi based assignment with notebook for commentaries
     - data_sfera_2 — power bi based assignment with notebook for commentaries
