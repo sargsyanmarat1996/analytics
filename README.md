@@ -11,7 +11,7 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
 - python/ — Main folder for the python code samples
 - analysis_assignments/ — Main folder for analytical assignments
     - apotheka_data_analysis — excel based assignment
-    - clients_prolongation — excel based assignment with notebook for commentaries
-    - data_sfera — power bi based assignment with notebook for commentaries
-    - data_sfera_2 — power bi based assignment with notebook for commentaries
+    - clients_prolongation/ — excel based assignment with notebook for commentaries
+    - data_sfera/ — power bi based assignment with notebook for commentaries
+    - data_sfera_2/ — power bi based assignment with notebook for commentaries
     - 
