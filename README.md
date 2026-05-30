@@ -14,4 +14,4 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
     - clients_prolongation/ — excel based assignment with notebook for commentaries
     - data_sfera/ — power bi based assignment with notebook for commentaries
     - data_sfera_2/ — power bi based assignment with notebook for commentaries
-    - credit_scorings - python based assignment
+    - credit_scorings/ - python based assignment
