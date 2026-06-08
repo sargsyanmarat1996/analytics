@@ -15,4 +15,4 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
     - data_sfera/ — power bi based assignment with notebook for commentaries
     - data_sfera_2/ — power bi based assignment with notebook for commentaries
     - credit_scorings/ - python based assignment
-    - supply_risks/ - power_query based assignment
+    - supply_risks/ - power_query and excel based assignment
