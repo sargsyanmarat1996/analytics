@@ -1,0 +1,171 @@
+OrderID,OrderDate,CustID,CustName,CustEmail,CustCity,CustState,CustZip,ProductID,ProductName,Category,CategoryMgr,Qty,UnitPrice,LineTotal
+1001,11/2/24,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1001,11/2/24,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,3,16.99,50.97
+1001,11/2/24,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1002,11/3/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1002,11/3/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1003,11/5/24,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1004,11/7/24,503,Susan Park,spark@mail.com,Beaverton,OR,97005,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1005,11/10/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,2,219.99,439.98
+1005,11/10/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,1,5.99,5.99
+1006,11/12/24,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1006,11/12/24,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1006,11/12/24,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1007,11/13/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1007,11/13/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1008,11/15/24,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1008,11/15/24,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1009,11/17/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,4,16.99,67.96
+1009,11/17/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,3,5.99,17.97
+1010,11/18/24,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1010,11/18/24,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1010,11/18/24,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1011,11/20/24,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1011,11/20/24,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1011,11/20/24,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1012,11/21/24,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1012,11/21/24,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,3,8.99,26.97
+1013,11/22/24,503,Susan Park,spark@mail.com,Beaverton,OR,97005,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1013,11/22/24,503,Susan Park,spark@mail.com,Beaverton,OR,97005,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,1,16.99,16.99
+1014,11/25/24,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1014,11/25/24,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,610,Shure SM58 Microphone,Recording,Tom Bradshaw,2,99.99,199.98
+1015,11/27/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1015,11/27/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,3,16.99,50.97
+1015,11/27/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,2,12.99,25.98
+1015,11/27/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1016,11/28/24,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1016,11/28/24,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,2,189.99,379.98
+1016,11/28/24,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1017,11/30/24,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,4,5.99,23.96
+1017,11/30/24,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1018,12/1/24,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1018,12/1/24,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1019,12/3/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,4,8.99,35.96
+1019,12/3/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1020,12/5/24,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1020,12/5/24,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1020,12/5/24,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1020,12/5/24,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,5,5.99,29.95
+1021,12/6/24,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1021,12/6/24,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1022,12/8/24,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1022,12/8/24,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,3,5.99,17.97
+1023,12/9/24,515,Megan Price,mprice@mail.com,Redmond,WA,98052,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1023,12/9/24,515,Megan Price,mprice@mail.com,Redmond,WA,98052,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1024,12/10/24,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,3,16.99,50.97
+1024,12/10/24,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1025,12/12/24,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1025,12/12/24,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1025,12/12/24,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1026,12/13/24,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,2,219.99,439.98
+1026,12/13/24,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,4,16.99,67.96
+1026,12/13/24,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,3,5.99,17.97
+1027,12/15/24,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1027,12/15/24,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1028,12/17/24,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1028,12/17/24,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1028,12/17/24,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1029,12/18/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1029,12/18/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,2,12.99,25.98
+1029,12/18/24,502,James Reed,jreed@mail.com,Seattle,WA,98101,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1030,12/20/24,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1030,12/20/24,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1030,12/20/24,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1031,12/21/24,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1031,12/21/24,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1031,12/21/24,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1032,12/22/24,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1032,12/22/24,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,3,16.99,50.97
+1032,12/22/24,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1033,12/23/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1033,12/23/24,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1034,12/26/24,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1034,12/26/24,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1035,12/27/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1035,12/27/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1035,12/27/24,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,4,5.99,23.96
+1036,12/28/24,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1036,12/28/24,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1036,12/28/24,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1037,12/30/24,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,610,Shure SM58 Microphone,Recording,Tom Bradshaw,2,99.99,199.98
+1037,12/30/24,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1038,1/2/25,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1038,1/2/25,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1039,1/5/25,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1039,1/5/25,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1039,1/5/25,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,3,8.99,26.97
+1040,1/7/25,515,Megan Price,mprice@mail.com,Redmond,WA,98052,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1040,1/7/25,515,Megan Price,mprice@mail.com,Redmond,WA,98052,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1040,1/7/25,515,Megan Price,mprice@mail.com,Redmond,WA,98052,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,1,5.99,5.99
+1041,1/9/25,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1041,1/9/25,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1042,1/10/25,503,Susan Park,spark@mail.com,Beaverton,OR,97005,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1042,1/10/25,503,Susan Park,spark@mail.com,Beaverton,OR,97005,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1043,1/12/25,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1043,1/12/25,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1044,1/14/25,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,4,16.99,67.96
+1044,1/14/25,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1045,1/16/25,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1045,1/16/25,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1046,1/18/25,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1046,1/18/25,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,2,12.99,25.98
+1047,1/20/25,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1047,1/20/25,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1047,1/20/25,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,3,5.99,17.97
+1048,1/22/25,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1048,1/22/25,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,610,Shure SM58 Microphone,Recording,Tom Bradshaw,2,99.99,199.98
+1049,1/25/25,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1049,1/25/25,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1050,1/27/25,502,James Reed,jreed@mail.com,Seattle,WA,98101,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1050,1/27/25,502,James Reed,jreed@mail.com,Seattle,WA,98101,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1050,1/27/25,502,James Reed,jreed@mail.com,Seattle,WA,98101,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1051,1/29/25,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1051,1/29/25,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,3,16.99,50.97
+1051,1/29/25,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1052,1/31/25,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1052,1/31/25,513,Amanda Cruz,acruz@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1053,2/2/25,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1053,2/2/25,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1053,2/2/25,510,Tyler Hoffman,thoffman@mail.com,Spokane,WA,99201,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1054,2/5/25,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,5,16.99,84.95
+1054,2/5/25,504,Kevin Tran,ktran@mail.com,Portland,OR,97201,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,3,5.99,17.97
+1055,2/7/25,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1055,2/7/25,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1055,2/7/25,511,Jessica Owens,jowens@mail.com,Salem,OR,97301,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1056,2/10/25,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1056,2/10/25,506,Daniel Kim,dkim@mail.com,Portland,OR,97201,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1057,2/12/25,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1057,2/12/25,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1057,2/12/25,512,Brandon Scott,bscott@mail.com,Olympia,WA,98501,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1058,2/14/25,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1058,2/14/25,501,Maria Lopez,mlopez@mail.com,Portland,OR,97201,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1059,2/16/25,515,Megan Price,mprice@mail.com,Redmond,WA,98052,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1059,2/16/25,515,Megan Price,mprice@mail.com,Redmond,WA,98052,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,1,16.99,16.99
+1060,2/18/25,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,610,Shure SM58 Microphone,Recording,Tom Bradshaw,2,99.99,199.98
+1060,2/18/25,514,Eric Lawson,elawson@mail.com,Bend,OR,97701,620,Focusrite Scarlett 2i2 Interface,Recording,Tom Bradshaw,1,169.99,169.99
+1061,2/20/25,503,Susan Park,spark@mail.com,Beaverton,OR,97005,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1061,2/20/25,503,Susan Park,spark@mail.com,Beaverton,OR,97005,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,3,16.99,50.97
+1061,2/20/25,503,Susan Park,spark@mail.com,Beaverton,OR,97005,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,2,5.99,11.98
+1062,2/22/25,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1062,2/22/25,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1062,2/22/25,516,Patrick Young,pyoung@mail.com,Vancouver,WA,98660,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1063,2/25/25,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1063,2/25/25,518,Ryan Mitchell,rmitchell@mail.com,Tacoma,WA,98402,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,1,189.99,189.99
+1064,2/27/25,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1064,2/27/25,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1064,2/27/25,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,250,Guitar Capo (Trigger Style),Accessories,Dana Kim,1,12.99,12.99
+1064,2/27/25,507,Rachel Green,rgreen@mail.com,Eugene,OR,97401,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
+1065,3/1/25,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,560,Yamaha P-45 Digital Piano,Keyboards,Dana Kim,1,499.99,499.99
+1065,3/1/25,505,Angela Morris,amorris@mail.com,Tacoma,WA,98402,205,Ernie Ball Strings (3-pack),Accessories,Dana Kim,2,16.99,33.98
+1066,3/3/25,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,150,Fender Stratocaster Electric Guitar,Guitars,Rick Samuels,1,799.99,799.99
+1066,3/3/25,520,Samantha Rivera,srivera@mail.com,Bend,OR,97701,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,4,5.99,23.96
+1067,3/5/25,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1067,3/5/25,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,4,8.99,35.96
+1067,3/5/25,519,Heather Collins,hcollins@mail.com,Seattle,WA,98101,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1068,3/7/25,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,550,Casio CT-S300 Keyboard,Keyboards,Dana Kim,1,229.99,229.99
+1068,3/7/25,517,Laura Bennett,lbennett@mail.com,Corvallis,OR,97330,610,Shure SM58 Microphone,Recording,Tom Bradshaw,1,99.99,99.99
+1069,3/10/25,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,100,Yamaha FG800 Guitar,Guitars,Rick Samuels,1,219.99,219.99
+1069,3/10/25,508,Chris Wallace,cwallace@mail.com,Bellevue,WA,98004,310,Fender Guitar Picks (12-pack),Accessories,Dana Kim,5,5.99,29.95
+1070,3/12/25,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,420,Roland TD-1K Drum Kit,Drums,Rick Samuels,1,499.99,499.99
+1070,3/12/25,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,430,Zildjian 14in Hi-Hat Cymbals,Drums,Rick Samuels,2,189.99,379.98
+1070,3/12/25,509,Natalie Brooks,nbrooks@mail.com,Portland,OR,97201,440,Vic Firth 5A Drumsticks (Pair),Drums,Rick Samuels,2,8.99,17.98
