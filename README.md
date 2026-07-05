@@ -7,6 +7,7 @@ Welcome to the portfolio in which I showcase my various analytic skills: excel, 
   - mysql_queries/ — Folder with mysql queries
   - power_bi/ — Folder with power bi project. Files transported from mysql server
 - statistics/ — Main folder for the statistical tests in python
+- data_normalization/ - Folder with data normalization exercise
 - BPMN/ — Main folder for the BPMN samples
 - python/ — Main folder for the python code samples
 - analysis_assignments/ — Main folder for analytical assignments
